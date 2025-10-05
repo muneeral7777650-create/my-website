@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرآن الكريم</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=El+Messiri&display=swap" rel="stylesheet">
+    <style>
+        /* تنسيقات CSS */
+        body {
+            font-family: 'Amiri', serif;
+            margin: 0;
+            padding: 0;
+            background: url(p/quran.jfif) no-repeat center  fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            user-select: none;
+        }
+
+        /* تنسيقات الواجهة الرئيسية (hero) */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            font-family: 'El Messiri', sans-serif;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 700px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1>القرآن الكريم</h1>
+        <p>
+            مرحباً بكم في موقع القرآن الكريم، نافذتك إلى كلام الله عز وجل. استمع إلى تلاوات خاشعة من أشهر القراء، وتعمق
+            في فهم آيات القرآن الكريم من خلال تفاسير مختارة. موقعنا يوفر لك تجربة إيمانية متكاملة، مع واجهة سهلة
+            الاستخدام وميزات متقدمة للبحث والتصفح.
+        </p>
+        <a href="main.html" class="btn" onclick="enterSite()">ادخل إلى الموقع</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 القرآن الكريم. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script>
+        function enterSite() {
+            // يمكنك إضافة أي تفاعل أو تعليمات برمجية هنا عند دخول المستخدم إلى الموقع
+            console.log('Entering the site...');
+        }
+    </script>
+
+</body>
+
+</html>

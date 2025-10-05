@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>سورة الفاتحة</title>
+    <style>
+        body {
+            font-family: 'Amiri', serif;
+            background: linear-gradient(to bottom, #f9f5f5, #0a0a0a);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding-top: 90px;
+            user-select: none;
+
+        }
+
+        /* الهيدر في أعلى الصفحة */
+        header {
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            /*  لتثبيت الهيدر في الأعلى */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'El Messiri', sans-serif;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        /* الفوتر في أسفل الصفحة */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto;
+            /* لدفع الفوتر إلى أسفل */
+            background-color: none;
+            color: #fbf9f9;
+            padding: 10px;
+            text-align: center;
+
+
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #fcfbfb;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #ffc107;
+        }
+
+        /* تنسيق محتوى الصفحة */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .container h1 {
+            font-size: 2.5em;
+            color: #2e8b57;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.5em;
+            line-height: 2em;
+            color: #555;
+            margin: 0;
+        }
+
+        .ayah {
+            margin-bottom: 20px;
+        }
+
+        .bismillah {
+            font-weight: bold;
+            color: #d35400;
+        }
+
+        /* استجابة التصميم */
+        @media (max-width: 768px) {
+
+            header h1,
+            footer p {
+                font-size: 1.5em;
+            }
+
+            .container h1 {
+                font-size: 2em;
+            }
+
+            .container p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- الهيدر -->
+    <header>
+        <h1>القرآن الكريم</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">قائمة القراء</a></li>
+                <li><a href="ختم القران.html">دعاء ختم القرآن</a></li>
+                <li><a href="الفاتحه.html">الفاتحة</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- محتوى الصفحة -->
+    <div class="container">
+        <h1>سورة الفاتحة</h1>
+
+        <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+
+        <p class="ayah">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</p>
+        <p class="ayah">الرَّحْمَنِ الرَّحِيمِ</p>
+        <p class="ayah">مَالِكِ يَوْمِ الدِّينِ</p>
+        <p class="ayah">إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</p>
+        <p class="ayah">اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ</p>
+        <p class="ayah">صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</p>
+
+    </div>
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 موقع القرآن الكريم | <a href="logged in.html">الصفحة الرئيسية</a> | <a href="#">اتصل بنا</a></p>
+    </footer>
+
+</body>
+
+</html>

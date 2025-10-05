@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>القارئ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: 'Amiri', serif;
+      direction: rtl;
+      text-align: center;
+      background: linear-gradient(to bottom, #f9f5f5, #0a0a0a);
+      padding-top: 50px;
+    }
+
+    .reciter-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 70px;
+    }
+
+    .reciter-container img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid rgba(204, 198, 167, 0.639);
+    }
+
+    .reciter-name {
+      margin-top: 20px;
+      font-size: 2em;
+      font-family: 'El Messiri', sans-serif;
+      color: #343a40;
+    }
+
+    .video-container {
+      margin-top: 30px;
+      width: 80%;
+      max-width: 600px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      border: 3px solid rgba(204, 198, 167, 0.639);
+      border-radius: 10px;
+    }
+
+    header {
+      background-color: none;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: 'El Messiri', sans-serif;
+      font-size: 2.5em;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffc107;
+    }
+
+    main {
+      padding: 30px;
+      padding-top: 100px;
+    }
+
+    footer {
+      background-color: none;
+      color: #fefefe;
+      padding: 10px;
+      text-align: center;
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>القرآن الكريم</h1>
+    <nav>
+      <ul>
+        <li><a href="main.html">قائمة القراء</a></li>
+        <li><a href="ختم القران.html">دعاء ختم القرآن</a></li>
+        <li><a href="الفاتحة.html">الفاتحة</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="reciter-container">
+    <img src="p/A.jfif" alt="احمد النفيس">
+    <div class="reciter-name"> أحمد النفيس </div>
+
+    <div class="video-container">
+      <video controls>
+        <source src="p/a.mp4" type="video/mp4">
+        المتصفح الخاص بك لا يدعم عرض الفيديو.
+      </video>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 القرآن الكريم. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+
+</html>
